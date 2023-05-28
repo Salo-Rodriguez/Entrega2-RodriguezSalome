@@ -110,10 +110,9 @@ footer{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-@media screen and (min-width:200px) and (max-width: 756px){
+@media screen and (max-width: 756px){
     .seg-pag{
-        background-image: url(../img/src/monaco.jpeg);
-        background-size: 100% 100%;
+        background-image: url(../img/src/monacofondo.png);
     }
 }
 @media screen and (max-width: 412px){
