@@ -204,3 +204,36 @@ section div div input{
     text-align: center;
     font-size: x-large;
 }
+.terc-pag{
+    background-image: url(../img/src/Spa\,\ Belgica\ imagen.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 756px){
+    .terc-pag{
+        background-image: url(../img/src/spa\ cel.png);
+    }
+}
+.cuarta-pag{
+    background-image: url(../img/src/Singapur\,\ Marina\ Bay.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 756px){
+    .cuarta-pag{
+        background-image: url(../img/src/Marina\ bay\ cel\ \(1\).png);
+    }
+}
+.quinta-pag{
+    background-image: url(../img/src/yasmarine\ compu2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 756px){
+    .quinta-pag{
+        background-image: url(../img/src/yasmarine\ cel.png);
+    }
+}
+.marg-ccto{
+    margin-top: 25%;
+}
