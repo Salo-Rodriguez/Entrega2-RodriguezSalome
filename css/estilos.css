@@ -112,7 +112,7 @@ footer{
 }
 @media screen and (min-width:200px) and (max-width: 756px){
     .seg-pag{
-        background-image: url(../img/src/Monacopeq.png);
+        background-image: url(../img/src/Monaco.png);
         background-size: 100% 100%;
     }
 }
