@@ -1,0 +1,201 @@
+@font-face{
+    font-family: 'Formula1 Display';
+    src: url('../fonts/formula1.ttf') format('truetype')
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Formula1 Display', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+body.inicio{
+    background: linear-gradient(180deg, #15151E 0%, #000000 100%);
+    background-size: 100% 100%;
+}
+body.fd-eq{
+    background: linear-gradient(100deg, #020220 20%, #000000 100%)
+}
+header{
+    height: 100px;
+    background-color: #e00700;
+    color: white;
+}
+footer{
+    padding: 10px 30px;
+    height: 100px;
+    color: white;
+}
+/* header .navbar .navbar-nav .nav-item .nav-link,
+header .navbar .navbar-brand{
+} */
+header .navbar .navbar-collapse{
+    background-color: #e00700;
+    padding: 10px 30px;
+}
+header .navbar .navbar-brand p{
+    margin: 0;
+}
+main{
+    padding: 50px 0;
+}
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: -30px;
+}
+.pistas .contenido-pistas{
+    padding: 10px 20px 20px;
+}
+.pistas .contenido-pistas div p{
+    text-decoration:line-through;
+}
+.pistas .contenido-pistas div h4{
+    font-size: 20px;
+    color: rgb(217, 16, 16);
+    margin-bottom: 10px;
+}
+.boton{
+    padding: 10px 20px;
+    border-style: none;
+    background-image: url(../img/src/Monaco\,\ Monaco.png );
+    background-size: 50% 50%;
+    background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px;
+    color: white;
+    width: 100%;
+}
+footer div ul{
+    display: flex;
+    justify-content: right;
+}
+footer div p{
+    font-size: small;
+    color: #45454576;
+    text-align: right;
+    margin-right: 35px;
+}
+footer div ul li{
+    list-style-type:none;
+}
+footer{
+    height: 100%;
+    background-color: #e0070000;
+}
+.pie{
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+} 
+.pie1{
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+    margin-top: -6px;
+} 
+@media screen and (max-width: 412px){
+    .pie{
+        width: 90%;
+        height: 90%;
+    }
+}
+@media screen and (max-width: 412px){
+    .pie1{
+        width: 90%;
+        height: 90%;
+    }
+}
+.seg-pag{
+    background-image: url(../img/src/1522410569_000201_1522410984_noticia_normal.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:200px) and (max-width: 756px){
+    .seg-pag{
+        background-image: url(../img/src/Monacopeq.png);
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width: 412px){
+    footer div ul li a img.pie{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 412px){
+    footer div ul li a img.pie1{
+        width: 60px;
+        height: 60px;
+    }
+}
+.foto{
+    width: 100%;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255 255 255);
+}
+.navbar-nav, .nav-link{
+    color: rgba(255, 255, 255, 0.758);
+}
+.navbar-toggler-icon{
+    background-image: url(../img/logo/menu-abierto.png);
+
+}
+button.info{
+    background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px;
+    padding: 20px;
+    border-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section div div button a{
+    text-decoration: none;
+    color: #fff;
+}
+section div div label.form-check-label{
+    font-size: small;
+}
+section div div input{
+    size: 20px;
+}
+.btnuno{
+    background-color: #e007006b;
+    border-radius: 25px;
+    border-style: none;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btndos{
+    background-color: #3d000084;
+    border-radius: 25px;
+    border-style: none;
+    font-size: small;
+    padding: 10px;
+    width: 30%;
+    margin-left: 35%;
+}
+.mb-3{
+    color: #000000;
+    justify-items: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: x-large;
+}
