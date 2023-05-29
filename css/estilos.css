@@ -204,6 +204,14 @@ section div div input{
     text-align: center;
     font-size: x-large;
 }
+
+.circuitos{
+
+    display: block;
+    margin: auto;
+}
+
+
 .terc-pag{
     background-image: url(../img/src/Spa\,\ Belgica\ imagen.png);
     background-size: 100% 100%;
@@ -239,9 +247,9 @@ section div div input{
 }
 
 
-
-.circuitos{
-
-    display: block;
-    margin: auto;
+@media screen and (min-width: 1440px){
+    .nav-move{
+    display: flex;
+   margin-left: 50rem;
+}
 }
